@@ -93,8 +93,8 @@ class FlexSelectMultipleWidget(SelectMultiple):
             googlecdn = "https://ajax.googleapis.com/ajax/libs"
             js.append('%s/jquery/1.6.1/jquery.min.js' % googlecdn)
             js.append('%s/jqueryui/1.8.13/jquery-ui.min.js' % googlecdn)
-            js.append('flexselect/js/chosen.js')
-        js.append('flexselect/js/flexselect_multiple.js')
+            js.append('flexselect_multiple/js/chosen.js')
+        js.append('flexselect_multiple/js/flexselect_multiple.js')
 
     def __init__(self, base_field, modeladmin, request, *args,
                  **kwargs):
